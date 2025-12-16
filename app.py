@@ -7,7 +7,7 @@ from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFacto
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import os
 
-MODEL_PATH = "./model"
+MODEL_PATH = "rizazaidaan/detiknews-indobert"
 
 LABELS = {
     0: "Finance",
@@ -124,4 +124,5 @@ if st.button("Analisis Berita", type="primary"):
             #st.bar_chart({LABELS[i]: probs[i] for i in range(len(LABELS))})
 
         except Exception as e:
+
             st.error(f"Terjadi kesalahan saat memproses: {e}")
