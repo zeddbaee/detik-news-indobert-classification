@@ -126,4 +126,3 @@ if st.button("Analisis Berita", type="primary"):
         except Exception as e:
 
             st.error(f"Terjadi kesalahan saat memproses: {e}")
-
