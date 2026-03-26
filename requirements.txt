@@ -1,6 +1,7 @@
 streamlit
 tensorflow
 transformers
+tokenizers
 Sastrawi
 numpy
 tf-keras
