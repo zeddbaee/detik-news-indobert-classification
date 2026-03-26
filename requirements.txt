@@ -1,6 +1,6 @@
 streamlit
-tensorflow
-transformers
+tensorflow==2.15.0
+transformers==4.37.0
 tokenizers
 Sastrawi
 numpy
